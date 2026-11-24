@@ -1,0 +1,42 @@
+# Node Modules
+node_modules
+.env
+
+# Sentry Config File
+.sentryclirc
+
+# Sentry Config File
+.sentryclirc
+
+.DS_Store
+
+# Exported files
+data/
+prisma/scripts/
+new-scripts/
+
+# Logs
+combined.log
+error.log
+
+# Scripts
+scripts/
+
+# Prisma seed
+/prisma/seed/*
+
+# Docs
+docs/
+
+# Dist
+dist/
+.claude/settings.local.json
+
+# ERD File
+ERD.svg
+
+# OS Files
+.DS_Store
+
+# Postman Collections
+postman/
