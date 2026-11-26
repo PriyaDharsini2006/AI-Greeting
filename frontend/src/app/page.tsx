@@ -25,7 +25,7 @@ export default function Greeting() {
 
     try {
       const response = await fetch(
-        "http://localhost:8001/",
+        "https://ai-greeting-hmfm.onrender.com/",
         {
           method: "POST",
           headers: {
@@ -56,7 +56,6 @@ export default function Greeting() {
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-slate-100 px-4">
-
       <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-lg">
 
         <h1 className="mb-3 text-center text-3xl font-bold text-indigo-600">
